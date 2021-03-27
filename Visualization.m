@@ -64,7 +64,6 @@ legend(chan)
 
 
 %%                                        Time-Frequency Analysis
-%% Visualizing the power of signal in time-frequency plot
-power = amp.^2;
+%% Visualizing the power of signal in time-frequency plot for each channel
 figure(5),clf
-
+pspectrum(p3(3,:),srate,'spectrogram')
